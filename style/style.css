@@ -141,6 +141,7 @@
     justify-content: flex-start;
     padding: 0;
     margin: 100px 0px;
+    width: 100%;
     
 }
 .hero-food-img{
@@ -203,7 +204,13 @@
     opacity: 0.7;
     margin: 0px 8px;
 }
-
+.card-section{
+    display: flex;
+    flex-direction: none;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 0px;
+}
 
 
 
