@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* font-family: "Work Sans", sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+#hero{
+    height: 754px;
+    background-image:linear-gradient(0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),
+    url("../assets/hero-bg.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero .hero-content{
+    width: 839px;
+    margin: 0px auto;
+}
+#hero .hero-content .subtitle{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 12px;
+
+}
+#hero .hero-content .title{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 18px;
+}
+#hero .hero-content .description{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-bottom: 26;
+}
+.btn{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: center;
+    border-radius: 6px;
+    background: rgb(82, 195, 3);
+    padding: 16px 26px 16px 26px;
+    border: none;
+    cursor: pointer;
+}
+.btn-style{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 21px 32px 21px 32px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 28px 0px;
+
+}
+#card-box{
+    width: 1082px;
+    height: 718px;
+    margin: 100px auto;
+}
+#card-box .info{
+    margin: 100px;
+}
+#card-box .card-container{
+    margin-top: 39px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    font-family: Work Sans;
+}
+#card-box .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0%;
+}
+#card-box .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.6;
+
+}
+.card{
+    max-width: 348px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.card .img-box{
+    width: 348px;
+
+}
+.card .img-box img{
+    width: 100%;
+}
+.card .shop{
+    border-radius: 8px;
+    background: rgba(82, 195, 3, 0.15);
+    padding: 10px 28px 10px 28px;
+}
+.card-text{
+    text-align: center;
+    padding: 10px;
+}
+.hero-content-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0;
+    margin: 100px 0px;
+    
+}
+.hero-food-img{
+    width: 787px;
+    background-image: url("../assets/foods.png");
+    background-size: cover;
+}
+.hero-food-img img{
+    height: 550px;
+    width: 100%;
+
+}
+.food-content{
+    width: 680px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 39px 50px;
+    padding: 24px 8px 24px 8px;
+}
+.hero-food-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 28px 0px;
+    
+}
+.hero-content-2 .title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 660px;
+    margin: 18px 0px;
+}
+.hero-content-2 .subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    margin: 18px 0px;
+}
+.hero-contact{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0px 8px;
+}
+
+
+
+
+
+
+
+
+#hero-social{
+    /* width: 1554px; */
+    height: 550px;
+    background-image: linear-gradient( rgba(188, 186, 186, 0.788),rgba(228, 226, 226, 0.792),rgba(228, 225, 225, 0.758),rgba(229, 227, 227, 0.817)),
+    url(../assets/social-bg.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 18px 0px;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+}
+.social-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.social-title{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 39px;
+    font-weight: 700;
+    line-height: 51px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+.social-inner{
+    width: 660px;
+    text-align: center;
+}
+.social-subtitle{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    opacity: 0.6;
+    text-align: center;
+    margin: 39px 0px;
+}
+.social-btn{
+    color: rgb(16, 16, 16);
+    font-family: Work Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+    opacity: 0.7;
+    margin: 0px 10px;
+
+}
+ ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: 32px;
+}
+ul > li{
+    padding: 7px;
+    font-size: x-large;
+    margin-top: 28px;
+}
+.fa-facebook{
+    color: blue;
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+}
+.fa-x-twitter{
+    color: rgb(0, 0, 0);
+}
+.fa-instagram{
+    color: brown;
+    background: radial-gradient(103.00% 103.00% at 56% 100%,rgba(140, 58, 170, 0) 64%,rgb(140, 58, 170) 100%);
+    padding: 0;
+    border-radius: 7px;
+}
+.fa-pinterest{
+    color: brown;
+    background: rgb(255, 255, 255);
+    border-radius: 25px;
+}
